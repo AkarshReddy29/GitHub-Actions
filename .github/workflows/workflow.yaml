@@ -31,5 +31,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Test
         run: |
-          ./home/akarsh/GitHub-Actions/.github/hellow.sh
+          chmod +x ./.github/hellow.sh
 
